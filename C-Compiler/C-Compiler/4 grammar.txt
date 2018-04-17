@@ -1,0 +1,31 @@
+S -> program
+program -> declaration-list
+declaration-list -> declaration-list declaration | declaration
+declaration -> var-declaration | fun-declaration
+var-declaration -> type-specifier ID ; | type-specifier ID [ NUM ] ;
+type-specifier -> int | void
+fun-declaration -> type-specifier IDF ( params ) | compound-stmt
+params -> params-list | void
+params-list -> params-list , param | param 
+param -> type-specifier ID | type-specifier ID [ ]
+compound-stmt -> { local-declarations statement-list }
+local-declarations -> local-declarations var-declaration | empty
+statement-list -> statement-list statement | empty
+statement -> expression-stmt | compound-stmt | selection-stmt | iteration-stmt | return-stmt
+expression-stmt -> expression ; | ;
+selection-stmt -> if ( expression ) statement | if ( expression ) statement else statement
+iteration-stmt -> while ( expression ) statement
+return-stmt -> return ; | return expression ;
+expression -> var1 = expression | simple-expression
+var -> ID | ID [ expression ]
+var1 -> ID1 | ID1 [ expression ]
+simple-expression -> additive-expression relop additive-expression | additive-expression
+relop -> <= | < | > | >= | == | !=
+additive-expression -> additive-expression addop term | term
+addop -> + | -
+term -> term mulop factor | factor
+mulop -> * | /
+factor -> ( expression ) | var | call | NUM
+call -> IDF ( args )
+args -> arg-list | empty
+arg-list -> arg-list , expression | expression

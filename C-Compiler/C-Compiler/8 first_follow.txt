@@ -1,0 +1,92 @@
+//first集
+S的first集:int void { 
+additive-expression的first集:( ID NUM IDF 
+additive-expression'的first集:empty + - 
+addop的first集:+ - 
+arg-list的first集:ID1 ( ID NUM IDF 
+arg-list'的first集:, empty 
+args的first集:empty ID1 ( ID NUM IDF 
+call的first集:IDF 
+compound-stmt的first集:{ 
+declaration的first集:int void { 
+declaration-list的first集:int void { 
+declaration-list'的first集:empty int void { 
+expression的first集:ID1 ( ID NUM IDF 
+expression-stmt的first集:; ID1 ( ID NUM IDF 
+factor的first集:( ID NUM IDF 
+fun-declaration的first集:int void { 
+iteration-stmt的first集:while 
+local-declarations的first集:empty int void 
+local-declarations'的first集:empty int void 
+mulop的first集:* / 
+param的first集:int void 
+param'的first集:empty [ 
+params的first集:void int 
+params-list的first集:int void 
+params-list'的first集:, empty 
+program的first集:int void { 
+relop的first集:<= < > >= == != 
+return-stmt的first集:return 
+return-stmt'的first集:; ID1 ( ID NUM IDF 
+selection-stmt的first集:if 
+selection-stmt'的first集:empty else 
+simple-expression的first集:( ID NUM IDF 
+simple-expression'的first集:empty <= < > >= == != 
+statement的first集:{ ; if while return ID1 ( ID NUM IDF 
+statement-list的first集:empty { ; if while return ID1 ( ID NUM IDF 
+statement-list'的first集:empty { ; if while return ID1 ( ID NUM IDF 
+term的first集:( ID NUM IDF 
+term'的first集:empty * / 
+type-specifier的first集:int void 
+var的first集:ID 
+var'的first集:empty [ 
+var-declaration的first集:int void 
+var-declaration'的first集:; [ 
+var1的first集:ID1 
+var1'的first集:empty [ 
+//follow集
+S的follow集:# 
+additive-expression的follow集:<= < > >= == != ; ) ] , 
+additive-expression'的follow集:<= < > >= == != ; ) ] , 
+addop的follow集:( ID NUM IDF 
+arg-list的follow集:) 
+arg-list'的follow集:) 
+args的follow集:) 
+call的follow集:* / + - <= < > >= == != ; ) ] , 
+compound-stmt的follow集:int void { # ; if while return ID1 ( ID NUM IDF } else 
+declaration的follow集:int void { # 
+declaration-list的follow集:# 
+declaration-list'的follow集:# 
+expression的follow集:; ) ] , 
+expression-stmt的follow集:{ ; if while return ID1 ( ID NUM IDF } else 
+factor的follow集:* / + - <= < > >= == != ; ) ] , 
+fun-declaration的follow集:int void { # 
+iteration-stmt的follow集:{ ; if while return ID1 ( ID NUM IDF } else 
+local-declarations的follow集:{ ; if while return ID1 ( ID NUM IDF } 
+local-declarations'的follow集:{ ; if while return ID1 ( ID NUM IDF } 
+mulop的follow集:( ID NUM IDF 
+param的follow集:, ) 
+param'的follow集:, ) 
+params的follow集:) 
+params-list的follow集:) 
+params-list'的follow集:) 
+program的follow集:# 
+relop的follow集:( ID NUM IDF 
+return-stmt的follow集:{ ; if while return ID1 ( ID NUM IDF } else 
+return-stmt'的follow集:{ ; if while return ID1 ( ID NUM IDF } else 
+selection-stmt的follow集:{ ; if while return ID1 ( ID NUM IDF } else 
+selection-stmt'的follow集:{ ; if while return ID1 ( ID NUM IDF } else 
+simple-expression的follow集:; ) ] , 
+simple-expression'的follow集:; ) ] , 
+statement的follow集:{ ; if while return ID1 ( ID NUM IDF } else 
+statement-list的follow集:} 
+statement-list'的follow集:} 
+term的follow集:+ - <= < > >= == != ; ) ] , 
+term'的follow集:+ - <= < > >= == != ; ) ] , 
+type-specifier的follow集:ID IDF 
+var的follow集:* / + - <= < > >= == != ; ) ] , 
+var'的follow集:* / + - <= < > >= == != ; ) ] , 
+var-declaration的follow集:int void { # ; if while return ID1 ( ID NUM IDF } 
+var-declaration'的follow集:int void { # ; if while return ID1 ( ID NUM IDF } 
+var1的follow集:= 
+var1'的follow集:= 

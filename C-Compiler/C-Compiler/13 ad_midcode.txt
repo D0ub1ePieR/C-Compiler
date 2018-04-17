@@ -1,0 +1,30 @@
+基本块入口:
+100
+104
+106
+113
+100 Prog gcd 
+101 T0 := v == 0 
+102 if T0==1 Goto 104 
+103 Goto 106 
+104 return u 
+105 Goto 113 
+106 T1 := v * v 
+107 T2 := u / T1 
+108 T3 := u - T2 
+109 param v 
+110 param T3 
+111 T4 := call gcd 
+112 return T4 
+113 Prog main 
+114 T5 := call input 
+115 x := T5 
+116 T6 := call input 
+117 y := T6 
+118 param x 
+119 param y 
+120 T7 := call gcd 
+121 param T7 
+122 T8 := call output 
+123 T9 := 2.000000 
+124 x := 2.000000 

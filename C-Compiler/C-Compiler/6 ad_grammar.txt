@@ -1,0 +1,82 @@
+1 S -> program
+2 program -> declaration-list
+3 declaration-list -> declaration declaration-list'
+4 declaration-list' -> declaration declaration-list' 
+5 declaration-list' -> empty
+6 declaration -> var-declaration 
+7 declaration -> fun-declaration
+8 var-declaration -> type-specifier ID var-declaration'
+9 var-declaration' -> ; 
+10 var-declaration' -> [ NUM ] ; 
+11 type-specifier -> int 
+12 type-specifier -> void
+13 fun-declaration -> type-specifier IDF ( params ) 
+14 fun-declaration -> compound-stmt
+15 params -> params-list 
+16 params -> void
+17 params-list -> param params-list'
+18 params-list' -> , param params-list' 
+19 params-list' -> empty
+20 param -> type-specifier ID param'
+21 param' -> empty 
+22 param' -> [ ] 
+23 compound-stmt -> { local-declarations statement-list }
+24 local-declarations -> empty 
+25 local-declarations -> local-declarations'
+26 local-declarations' -> var-declaration local-declarations' 
+27 local-declarations' -> empty
+28 statement-list -> empty 
+29 statement-list -> statement-list'
+30 statement-list' -> statement statement-list' 
+31 statement-list' -> empty
+32 statement -> expression-stmt 
+33 statement -> compound-stmt 
+34 statement -> selection-stmt 
+35 statement -> iteration-stmt 
+36 statement -> return-stmt
+37 expression-stmt -> expression ; 
+38 expression-stmt -> ;
+39 selection-stmt -> if ( expression ) statement selection-stmt'
+40 selection-stmt' -> empty 
+41 selection-stmt' -> else statement 
+42 iteration-stmt -> while ( expression ) statement
+43 return-stmt -> return return-stmt'
+44 return-stmt' -> ; 
+45 return-stmt' -> expression ; 
+46 expression -> var1 = expression 
+47 expression -> simple-expression
+48 var -> ID var'
+49 var' -> empty 
+50 var' -> [ expression ] 
+51 var1 -> ID1 var1'
+52 var1' -> empty 
+53 var1' -> [ expression ] 
+54 simple-expression -> additive-expression simple-expression'
+55 simple-expression' -> relop additive-expression 
+56 simple-expression' -> empty 
+57 relop -> <= 
+58 relop -> < 
+59 relop -> > 
+60 relop -> >= 
+61 relop -> == 
+62 relop -> !=
+63 additive-expression -> term additive-expression'
+64 additive-expression' -> addop term additive-expression' 
+65 additive-expression' -> empty
+66 addop -> + 
+67 addop -> -
+68 term -> factor term'
+69 term' -> mulop factor term' 
+70 term' -> empty
+71 mulop -> * 
+72 mulop -> /
+73 factor -> ( expression ) 
+74 factor -> var 
+75 factor -> call 
+76 factor -> NUM
+77 call -> IDF ( args )
+78 args -> arg-list 
+79 args -> empty
+80 arg-list -> expression arg-list'
+81 arg-list' -> , expression arg-list' 
+82 arg-list' -> empty

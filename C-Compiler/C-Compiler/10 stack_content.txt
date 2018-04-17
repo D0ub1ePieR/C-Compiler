@@ -1,0 +1,307 @@
+当前栈中元素个数:2 # S
+当前栈中元素个数:2 # program
+当前栈中元素个数:2 # declaration-list
+当前栈中元素个数:3 # declaration-list' declaration
+当前栈中元素个数:3 # declaration-list' fun-declaration
+当前栈中元素个数:7 # declaration-list' ) params ( IDF type-specifier
+当前栈中元素个数:7 # declaration-list' ) params ( IDF int
+当前栈中元素个数:6 # declaration-list' ) params ( IDF
+当前栈中元素个数:5 # declaration-list' ) params (
+当前栈中元素个数:4 # declaration-list' ) params
+当前栈中元素个数:4 # declaration-list' ) params-list
+当前栈中元素个数:5 # declaration-list' ) params-list' param
+当前栈中元素个数:7 # declaration-list' ) params-list' param' ID type-specifier
+当前栈中元素个数:7 # declaration-list' ) params-list' param' ID int
+当前栈中元素个数:6 # declaration-list' ) params-list' param' ID
+当前栈中元素个数:5 # declaration-list' ) params-list' param'
+当前栈中元素个数:4 # declaration-list' ) params-list'
+当前栈中元素个数:6 # declaration-list' ) params-list' param ,
+当前栈中元素个数:5 # declaration-list' ) params-list' param
+当前栈中元素个数:7 # declaration-list' ) params-list' param' ID type-specifier
+当前栈中元素个数:7 # declaration-list' ) params-list' param' ID int
+当前栈中元素个数:6 # declaration-list' ) params-list' param' ID
+当前栈中元素个数:5 # declaration-list' ) params-list' param'
+当前栈中元素个数:4 # declaration-list' ) params-list'
+当前栈中元素个数:3 # declaration-list' )
+当前栈中元素个数:2 # declaration-list'
+当前栈中元素个数:3 # declaration-list' declaration
+当前栈中元素个数:3 # declaration-list' fun-declaration
+当前栈中元素个数:3 # declaration-list' compound-stmt
+当前栈中元素个数:6 # declaration-list' } statement-list local-declarations {
+当前栈中元素个数:5 # declaration-list' } statement-list local-declarations
+当前栈中元素个数:4 # declaration-list' } statement-list
+当前栈中元素个数:4 # declaration-list' } statement-list'
+当前栈中元素个数:5 # declaration-list' } statement-list' statement
+当前栈中元素个数:5 # declaration-list' } statement-list' selection-stmt
+当前栈中元素个数:10 # declaration-list' } statement-list' selection-stmt' statement ) expression ( if
+当前栈中元素个数:9 # declaration-list' } statement-list' selection-stmt' statement ) expression (
+当前栈中元素个数:8 # declaration-list' } statement-list' selection-stmt' statement ) expression
+当前栈中元素个数:8 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression
+当前栈中元素个数:9 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression
+当前栈中元素个数:10 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression' term
+当前栈中元素个数:11 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression' term' factor
+当前栈中元素个数:11 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression' term' var
+当前栈中元素个数:12 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression' term' var' ID
+当前栈中元素个数:11 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression' term' var'
+当前栈中元素个数:10 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression' term'
+当前栈中元素个数:9 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression'
+当前栈中元素个数:8 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression'
+当前栈中元素个数:9 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression relop
+当前栈中元素个数:9 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression ==
+当前栈中元素个数:8 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression
+当前栈中元素个数:9 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term
+当前栈中元素个数:10 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' factor
+当前栈中元素个数:10 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' NUM
+当前栈中元素个数:9 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term'
+当前栈中元素个数:8 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression'
+当前栈中元素个数:7 # declaration-list' } statement-list' selection-stmt' statement )
+当前栈中元素个数:6 # declaration-list' } statement-list' selection-stmt' statement
+当前栈中元素个数:6 # declaration-list' } statement-list' selection-stmt' return-stmt
+当前栈中元素个数:7 # declaration-list' } statement-list' selection-stmt' return-stmt' return
+当前栈中元素个数:6 # declaration-list' } statement-list' selection-stmt' return-stmt'
+当前栈中元素个数:7 # declaration-list' } statement-list' selection-stmt' ; expression
+当前栈中元素个数:7 # declaration-list' } statement-list' selection-stmt' ; simple-expression
+当前栈中元素个数:8 # declaration-list' } statement-list' selection-stmt' ; simple-expression' additive-expression
+当前栈中元素个数:9 # declaration-list' } statement-list' selection-stmt' ; simple-expression' additive-expression' term
+当前栈中元素个数:10 # declaration-list' } statement-list' selection-stmt' ; simple-expression' additive-expression' term' factor
+当前栈中元素个数:10 # declaration-list' } statement-list' selection-stmt' ; simple-expression' additive-expression' term' var
+当前栈中元素个数:11 # declaration-list' } statement-list' selection-stmt' ; simple-expression' additive-expression' term' var' ID
+当前栈中元素个数:10 # declaration-list' } statement-list' selection-stmt' ; simple-expression' additive-expression' term' var'
+当前栈中元素个数:9 # declaration-list' } statement-list' selection-stmt' ; simple-expression' additive-expression' term'
+当前栈中元素个数:8 # declaration-list' } statement-list' selection-stmt' ; simple-expression' additive-expression'
+当前栈中元素个数:7 # declaration-list' } statement-list' selection-stmt' ; simple-expression'
+当前栈中元素个数:6 # declaration-list' } statement-list' selection-stmt' ;
+当前栈中元素个数:5 # declaration-list' } statement-list' selection-stmt'
+当前栈中元素个数:6 # declaration-list' } statement-list' statement else
+当前栈中元素个数:5 # declaration-list' } statement-list' statement
+当前栈中元素个数:5 # declaration-list' } statement-list' return-stmt
+当前栈中元素个数:6 # declaration-list' } statement-list' return-stmt' return
+当前栈中元素个数:5 # declaration-list' } statement-list' return-stmt'
+当前栈中元素个数:6 # declaration-list' } statement-list' ; expression
+当前栈中元素个数:6 # declaration-list' } statement-list' ; simple-expression
+当前栈中元素个数:7 # declaration-list' } statement-list' ; simple-expression' additive-expression
+当前栈中元素个数:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' factor
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' call
+当前栈中元素个数:12 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) args ( IDF
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) args (
+当前栈中元素个数:10 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) args
+当前栈中元素个数:10 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' expression
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression
+当前栈中元素个数:12 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression
+当前栈中元素个数:13 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' factor
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var' ID
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var'
+当前栈中元素个数:13 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term'
+当前栈中元素个数:12 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression'
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression'
+当前栈中元素个数:10 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list'
+当前栈中元素个数:12 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' expression ,
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' expression
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression
+当前栈中元素个数:12 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression
+当前栈中元素个数:13 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' factor
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var' ID
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var'
+当前栈中元素个数:13 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term'
+当前栈中元素个数:12 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression'
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term addop
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term -
+当前栈中元素个数:13 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' factor
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var' ID
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var'
+当前栈中元素个数:13 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term'
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' factor mulop
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' factor /
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' factor
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var' ID
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var'
+当前栈中元素个数:13 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term'
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' factor mulop
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' factor *
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' factor
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var' ID
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var'
+当前栈中元素个数:13 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term'
+当前栈中元素个数:12 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression'
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression'
+当前栈中元素个数:10 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list'
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' )
+当前栈中元素个数:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term'
+当前栈中元素个数:7 # declaration-list' } statement-list' ; simple-expression' additive-expression'
+当前栈中元素个数:6 # declaration-list' } statement-list' ; simple-expression'
+当前栈中元素个数:5 # declaration-list' } statement-list' ;
+当前栈中元素个数:4 # declaration-list' } statement-list'
+当前栈中元素个数:3 # declaration-list' }
+当前栈中元素个数:2 # declaration-list'
+当前栈中元素个数:3 # declaration-list' declaration
+当前栈中元素个数:3 # declaration-list' fun-declaration
+当前栈中元素个数:7 # declaration-list' ) params ( IDF type-specifier
+当前栈中元素个数:7 # declaration-list' ) params ( IDF void
+当前栈中元素个数:6 # declaration-list' ) params ( IDF
+当前栈中元素个数:5 # declaration-list' ) params (
+当前栈中元素个数:4 # declaration-list' ) params
+当前栈中元素个数:4 # declaration-list' ) void
+当前栈中元素个数:3 # declaration-list' )
+当前栈中元素个数:2 # declaration-list'
+当前栈中元素个数:3 # declaration-list' declaration
+当前栈中元素个数:3 # declaration-list' fun-declaration
+当前栈中元素个数:3 # declaration-list' compound-stmt
+当前栈中元素个数:6 # declaration-list' } statement-list local-declarations {
+当前栈中元素个数:5 # declaration-list' } statement-list local-declarations
+当前栈中元素个数:5 # declaration-list' } statement-list local-declarations'
+当前栈中元素个数:6 # declaration-list' } statement-list local-declarations' var-declaration
+当前栈中元素个数:8 # declaration-list' } statement-list local-declarations' var-declaration' ID type-specifier
+当前栈中元素个数:8 # declaration-list' } statement-list local-declarations' var-declaration' ID int
+当前栈中元素个数:7 # declaration-list' } statement-list local-declarations' var-declaration' ID
+当前栈中元素个数:6 # declaration-list' } statement-list local-declarations' var-declaration'
+当前栈中元素个数:6 # declaration-list' } statement-list local-declarations' ;
+当前栈中元素个数:5 # declaration-list' } statement-list local-declarations'
+当前栈中元素个数:6 # declaration-list' } statement-list local-declarations' var-declaration
+当前栈中元素个数:8 # declaration-list' } statement-list local-declarations' var-declaration' ID type-specifier
+当前栈中元素个数:8 # declaration-list' } statement-list local-declarations' var-declaration' ID int
+当前栈中元素个数:7 # declaration-list' } statement-list local-declarations' var-declaration' ID
+当前栈中元素个数:6 # declaration-list' } statement-list local-declarations' var-declaration'
+当前栈中元素个数:6 # declaration-list' } statement-list local-declarations' ;
+当前栈中元素个数:5 # declaration-list' } statement-list local-declarations'
+当前栈中元素个数:4 # declaration-list' } statement-list
+当前栈中元素个数:4 # declaration-list' } statement-list'
+当前栈中元素个数:5 # declaration-list' } statement-list' statement
+当前栈中元素个数:5 # declaration-list' } statement-list' expression-stmt
+当前栈中元素个数:6 # declaration-list' } statement-list' ; expression
+当前栈中元素个数:8 # declaration-list' } statement-list' ; expression = var1
+当前栈中元素个数:9 # declaration-list' } statement-list' ; expression = var1' ID1
+当前栈中元素个数:8 # declaration-list' } statement-list' ; expression = var1'
+当前栈中元素个数:7 # declaration-list' } statement-list' ; expression =
+当前栈中元素个数:6 # declaration-list' } statement-list' ; expression
+当前栈中元素个数:6 # declaration-list' } statement-list' ; simple-expression
+当前栈中元素个数:7 # declaration-list' } statement-list' ; simple-expression' additive-expression
+当前栈中元素个数:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' factor
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' call
+当前栈中元素个数:12 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) args ( IDF
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) args (
+当前栈中元素个数:10 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) args
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' )
+当前栈中元素个数:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term'
+当前栈中元素个数:7 # declaration-list' } statement-list' ; simple-expression' additive-expression'
+当前栈中元素个数:6 # declaration-list' } statement-list' ; simple-expression'
+当前栈中元素个数:5 # declaration-list' } statement-list' ;
+当前栈中元素个数:4 # declaration-list' } statement-list'
+当前栈中元素个数:5 # declaration-list' } statement-list' statement
+当前栈中元素个数:5 # declaration-list' } statement-list' expression-stmt
+当前栈中元素个数:6 # declaration-list' } statement-list' ; expression
+当前栈中元素个数:8 # declaration-list' } statement-list' ; expression = var1
+当前栈中元素个数:9 # declaration-list' } statement-list' ; expression = var1' ID1
+当前栈中元素个数:8 # declaration-list' } statement-list' ; expression = var1'
+当前栈中元素个数:7 # declaration-list' } statement-list' ; expression =
+当前栈中元素个数:6 # declaration-list' } statement-list' ; expression
+当前栈中元素个数:6 # declaration-list' } statement-list' ; simple-expression
+当前栈中元素个数:7 # declaration-list' } statement-list' ; simple-expression' additive-expression
+当前栈中元素个数:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' factor
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' call
+当前栈中元素个数:12 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) args ( IDF
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) args (
+当前栈中元素个数:10 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) args
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' )
+当前栈中元素个数:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term'
+当前栈中元素个数:7 # declaration-list' } statement-list' ; simple-expression' additive-expression'
+当前栈中元素个数:6 # declaration-list' } statement-list' ; simple-expression'
+当前栈中元素个数:5 # declaration-list' } statement-list' ;
+当前栈中元素个数:4 # declaration-list' } statement-list'
+当前栈中元素个数:5 # declaration-list' } statement-list' statement
+当前栈中元素个数:5 # declaration-list' } statement-list' expression-stmt
+当前栈中元素个数:6 # declaration-list' } statement-list' ; expression
+当前栈中元素个数:6 # declaration-list' } statement-list' ; simple-expression
+当前栈中元素个数:7 # declaration-list' } statement-list' ; simple-expression' additive-expression
+当前栈中元素个数:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' factor
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' call
+当前栈中元素个数:12 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) args ( IDF
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) args (
+当前栈中元素个数:10 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) args
+当前栈中元素个数:10 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' expression
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression
+当前栈中元素个数:12 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression
+当前栈中元素个数:13 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' factor
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' call
+当前栈中元素个数:17 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) args ( IDF
+当前栈中元素个数:16 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) args (
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) args
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list
+当前栈中元素个数:16 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' expression
+当前栈中元素个数:16 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression
+当前栈中元素个数:17 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression
+当前栈中元素个数:18 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term
+当前栈中元素个数:19 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' factor
+当前栈中元素个数:19 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var
+当前栈中元素个数:20 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var' ID
+当前栈中元素个数:19 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var'
+当前栈中元素个数:18 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term'
+当前栈中元素个数:17 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression'
+当前栈中元素个数:16 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression'
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list'
+当前栈中元素个数:17 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' expression ,
+当前栈中元素个数:16 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' expression
+当前栈中元素个数:16 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression
+当前栈中元素个数:17 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression
+当前栈中元素个数:18 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term
+当前栈中元素个数:19 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' factor
+当前栈中元素个数:19 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var
+当前栈中元素个数:20 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var' ID
+当前栈中元素个数:19 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' var'
+当前栈中元素个数:18 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term'
+当前栈中元素个数:17 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression'
+当前栈中元素个数:16 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list' simple-expression'
+当前栈中元素个数:15 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' ) arg-list'
+当前栈中元素个数:14 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term' )
+当前栈中元素个数:13 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression' term'
+当前栈中元素个数:12 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression' additive-expression'
+当前栈中元素个数:11 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list' simple-expression'
+当前栈中元素个数:10 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' ) arg-list'
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' )
+当前栈中元素个数:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term'
+当前栈中元素个数:7 # declaration-list' } statement-list' ; simple-expression' additive-expression'
+当前栈中元素个数:6 # declaration-list' } statement-list' ; simple-expression'
+当前栈中元素个数:5 # declaration-list' } statement-list' ;
+当前栈中元素个数:4 # declaration-list' } statement-list'
+当前栈中元素个数:5 # declaration-list' } statement-list' statement
+当前栈中元素个数:5 # declaration-list' } statement-list' expression-stmt
+当前栈中元素个数:6 # declaration-list' } statement-list' ; expression
+当前栈中元素个数:8 # declaration-list' } statement-list' ; expression = var1
+当前栈中元素个数:9 # declaration-list' } statement-list' ; expression = var1' ID1
+当前栈中元素个数:8 # declaration-list' } statement-list' ; expression = var1'
+当前栈中元素个数:7 # declaration-list' } statement-list' ; expression =
+当前栈中元素个数:6 # declaration-list' } statement-list' ; expression
+当前栈中元素个数:6 # declaration-list' } statement-list' ; simple-expression
+当前栈中元素个数:7 # declaration-list' } statement-list' ; simple-expression' additive-expression
+当前栈中元素个数:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' factor
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' NUM
+当前栈中元素个数:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term'
+当前栈中元素个数:7 # declaration-list' } statement-list' ; simple-expression' additive-expression'
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term addop
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term +
+当前栈中元素个数:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' factor
+当前栈中元素个数:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' NUM
+当前栈中元素个数:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term'
+当前栈中元素个数:7 # declaration-list' } statement-list' ; simple-expression' additive-expression'
+当前栈中元素个数:6 # declaration-list' } statement-list' ; simple-expression'
+当前栈中元素个数:5 # declaration-list' } statement-list' ;
+当前栈中元素个数:4 # declaration-list' } statement-list'
+当前栈中元素个数:3 # declaration-list' }
+当前栈中元素个数:2 # declaration-list'
+当前栈中元素个数:1 #
